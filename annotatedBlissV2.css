@@ -1,0 +1,33 @@
+body {
+	max-width: 700px;
+	padding: 2em;
+}
+.blissSentence.small .blissCharacter img {
+	height: 4em;
+}
+.blissSentence {
+	margin: 5px;
+}
+.blissSentence .blissWord {
+	display: inline-block;
+	text-align: center;
+	padding: 0 0.75em; /* This AND ANOTHER VARIABLE BELOW is the spacing between clauses */
+}
+.blissSentence.small .blissWord .blissCharacter img {
+	margin: 0 1px; /* This is the spacing between symbols in the same clause */
+	background-repeat: no-repeat;
+	background-size: 0.7em;
+	background-position: 50% -0.2em;
+}
+.blissSentence.medium .blissWord .blissCharacter img {
+	margin: 0 1px; /* This is the spacing between symbols in the same clause */
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+	background-position: 50% 0em;
+}
+.blissAnnotation {
+	/* You can specify fonts or style for the annotation text here */
+}
+bliss {
+	height: 4em;
+}

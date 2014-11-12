@@ -1,0 +1,216 @@
+<!doctype>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="annotatedBlissV2.css"></link>
+	<script type="text/javascript" src="annotatedBlissV2.js"></script>
+</head>
+<body>
+	<h1>Introducing Bliss</h1>
+	<p>"Supporting [Bliss] means performing an important service to mankind" - Bertrand Russell (1950)
+	<h2>Chapter 1: A first glimpse</h2>
+	<p>1 + 1 = 2 is easily understood in all languages. Likewise, H20 means water in all languages.</p>
+	<p>Bliss is a pictorial language capable of representing rich and complex concepts like any other natural language but with dramatically more simplicity. In Bliss, the visual representations of concepts are not linked to their phonetics, or sound. In this way, the language is written and read the same by individuals regardless of their mother tongue.</p>
+	<p>Enough talking, lets see some Bliss!</p>
+	<bliss class='small'>[{"characters":[{"symbol":"sun","indicator":""}],"annotation":"Sun"},{"characters":[{"symbol":"earth,ground,land","indicator":""}],"annotation":"Earth"},{"characters":[{"symbol":"day","indicator":""}],"annotation":"Day"},{"characters":[{"symbol":"night","indicator":""}],"annotation":"Night"}]</bliss>
+	<p>The sun over the earth obviously indicates <b>day</b>, likewise the moon over the earth obviously means <b>night</b>.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"man,male","indicator":""}],"annotation":"Man"},{"characters":[{"symbol":"woman,female","indicator":""}],"annotation":"Woman"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""}],"annotation":"Person"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"two_(digit)","indicator":""}],"annotation":"You"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"three_(digit)","indicator":""}],"annotation":"They"}]</bliss>
+	<p>Symbols for man and woman are obvious and similar to childrens drawings. The symbol for person is a degendered version of the two. Standard concepts of first, second and third person are also universal and taken advantage of to convey I, you and they.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"feeling,emotion,sensation","indicator":""}],"annotation":"Emotion"},{"characters":[{"symbol":"feeling,emotion,sensation","indicator":""},{"symbol":"up,upward","indicator":""}],"annotation":"Happiness"},{"characters":[{"symbol":"feeling,emotion,sensation","indicator":""},{"symbol":"down,downward","indicator":""}],"annotation":"Sadness"},{"characters":[{"symbol":"love,affection","indicator":""}],"annotation":"Love"},{"characters":[{"symbol":"feeling,emotion,sensation","indicator":""},{"symbol":"fire","indicator":""}],"annotation":"Desire/want"}]</bliss>
+	<p>For emotion (or feeling) we take the age-old symbol of a heart (although note this is used to represent a multitude of emotions, not specifically love as it is sometimes used). Happiness and sadness then naturally follow as a improving or decaying emotion, and love is inspired by the cupids arrow piercing a heart. Desire is a fiery emotion of longing and want and is represented here by combining the heart, representing emotion, with the flame.</p>
+	<p>Notice how we have combined basic symbols to form more complex meanings. We will later see more ways to combine basic symbols.</p>
+
+	<h3>Indicators</h3>
+	<p><p>These symbols work primarily in combination with other symbols to indicate which form of meaning we want.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"thing,object","indicator":""}],"annotation":"Material thing"},{"characters":[{"symbol":"activity,male_gender_(in_combinations)","indicator":""}],"annotation":"Physical action"},{"characters":[{"symbol":"proposed_small_value","indicator":""}],"annotation":"Human evaluation"}]</bliss>
+	<p>The symbols are somewhat arbitrary, but a useful pneumonic is that the symbol for physical action looks like an A for action, and the symbol for human evaluation looks like a V for eValuation. You can also think of these as nouns (material things), verbs (physical actions) and adjectives (human evaluations).</p>
+	<!-- 280 for more -->
+	<p>Note how the symbol for human evaluation shows the outline of a cone, standing on its top, indicating a very precarious position. The cone may instantly topple over when pushed and it takes a lot of balancing to keep it in this precarious position. Just as with many evaluations of ours, which we hold, and which often topple over, when challenged.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"sun","indicator":"indicator_(thing)"}],"annotation":"Sun (the thing)"},{"characters":[{"symbol":"sun","indicator":"indicator_(action)"}],"annotation":"To shine (verb)"},{"characters":[{"symbol":"sun","indicator":"indicator_(description)"}],"annotation":"Sunny (adjective)"}]</bliss>
+	<!-- Rain is also good -->
+	<p>We can write a specific meaning of a symbol by placing the symbol for material things, physical actions and human evaluations above them. Here are a few more examples.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"water,fluid,liquid","indicator":"indicator_(thing)"}],"annotation":"Water"},{"characters":[{"symbol":"water,fluid,liquid","indicator":"indicator_(action)"}],"annotation":"To make wet"},{"characters":[{"symbol":"water,fluid,liquid","indicator":"indicator_(description)"}],"annotation":"Wet"},{"characters":[{"symbol":"rain","indicator":"indicator_(thing)"}],"annotation":"Rain"},{"characters":[{"symbol":"rain","indicator":"indicator_(action)"}],"annotation":"To rain"},{"characters":[{"symbol":"rain","indicator":"indicator_(description)"}],"annotation":"Rainy"}]</bliss>
+	<p>Notice how having seen the symbol for water, the symbol for rain is easily understood as water falling downward.</p>
+	<p>Movement is a fundamental concept and it's symbol is the final one we learn in this chapter.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"legs_and_feet","indicator":""}],"annotation":"Legs"},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(action)"}],"annotation":"To move"}]</bliss>
+	<p>The symbol for legs is inpired by the Egyption heiroglyph. As an action, legs represent to move, or to go.</p>
+
+	<h3>The first sentence</h3>
+	<p>We now have all we need to write our first sentence.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"love,affection","indicator":"indicator_(action)"}],"annotation":""},{"characters":[{"symbol":"rain","indicator":""}],"annotation":""}]</bliss>
+	<p>It's meaning is left as an exercise to the reader.</p>
+
+	<h2>Chapter 2: Tenses and rich symbol combinations</h2>
+	<p>Before we start, lets take a look at what we hope to build up to in this chapter. Don't worry about understanding the Bliss right now, we'll get there together!</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(past_action)"}],"annotation":"went"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"giving,gift","indicator":""},{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"school"},{"characters":[{"symbol":"day","indicator":""},{"symbol":"ago,then_(past)","indicator":""},{"symbol":"then,so,later","indicator":""}],"annotation":"today"}]</bliss>
+
+
+	<!-- before, after etc p251 -->
+	<h3>The symbol for time</h3>
+	<bliss class='small'>[{"characters":[{"symbol":"past","indicator":""}],"annotation":"Past"},{"characters":[{"symbol":"past","indicator":""},{"symbol":"future","indicator":""}],"annotation":"Present"},{"characters":[{"symbol":"future","indicator":""}],"annotation":"Future"}]</bliss>
+	<p>Time has no obvious visual representation but in Bliss we represent it with a curve turned backwards to mirror the past and turned forward to signify the future. In between past and future is the present.</p>
+
+	<p>To indicate tense, we could add these symbols alongside the action indicator, however a single time indicator will be sufficient to indicate action and tense.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"feeling,emotion,sensation","indicator":"indicator_(past_action)"},{"symbol":"fire","indicator":""}],"annotation":"Wanted"},{"characters":[{"symbol":"rain","indicator":"indicator_(present_action)"}],"annotation":"Raining"},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(future_action)"}],"annotation":"Will go"}]</bliss>
+
+	<h3>Combinations of symbols</h3>
+	<bliss class='small'>[{"characters":[{"symbol":"mind,intellect,reason","indicator":""}],"annotation":"Mind"},{"characters":[{"symbol":"mind,intellect,reason","indicator":"indicator_(action)"}],"annotation":"To think"},{"characters":[{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"Knowledge"},{"characters":[{"symbol":"knowledge,class_(in_combinations)","indicator":"indicator_(action)"}],"annotation":"To know"}]</bliss>
+	<p>The symbol for mind is the outline of the crest of a human head. We can naturally turn it into a container to convey knowledge.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"container,bowl,holder,pouch","indicator":""}],"annotation":"Container"},{"characters":[{"symbol":"giving,gift","indicator":"indicator_(action)"}],"annotation":"Give"},{"characters":[{"symbol":"receiving","indicator":"indicator_(action)"}],"annotation":"Receive"},{"characters":[{"symbol":"proposed_exchange,substitute,trade","indicator":"indicator_(action)"}],"annotation":"Share"}]</bliss>
+	<p>These symbols are relatively self-explanitory, although it's worth recognising how from a single concept like 'container' others such as to give and receive naturally follow. Also note how once you know the symbol 'give' it is trivial to guess the symbol for 'receive'. Note how different this is to other languages.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"Building"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"feeling,emotion,sensation","indicator":""}],"annotation":"Home"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"giving,gift","indicator":""},{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"School (building that gives knowledge)"}]</bliss>
+	<p>Once you know the building blocks, these words need no explanation.</p>
+
+	<h2>Chapter X: I am what I have</h2>
+	<p>We now turn our attention to very important concepts: existance and possession.</p>	
+	<p>To own something means an addition or a gain of some very earthly thing. Thus, the combination of addition and earth captures this concept cleanly.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"proposed_additive","indicator":""}],"annotation":"Addition"},{"characters":[{"symbol":"earth,ground,land","indicator":""}],"annotation":"Earth"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(action)"}],"annotation":"To possess, to own"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(thing)"}],"annotation":"Possession (earthly addition)"}]</bliss>
+	<p>Now we know how to express possession we should introduce some more things it is possible to possess!</p>
+	<!-- Nouns here -->
+	pen paper, money,letter
+	<p>Now we know how to express "I have a pen" it is natural to wonder how to say "my pen is good"</p>
+
+	<h2>Chapter 3: Senses</h2>
+	<!-- p143 for senses. todo: remove evaluations and move 'combination examples' to their own section -->
+	<bliss class='small'>[{"characters":[{"symbol":"eye","indicator":"indicator_(thing)"}],"annotation":"Eye"},{"characters":[{"symbol":"eye","indicator":"indicator_(action)"}],"annotation":"To see"},{"characters":[{"symbol":"eye","indicator":"indicator_(description)"}],"annotation":"Visual"},{"characters":[{"symbol":"eye","indicator":""},{"symbol":"through","indicator":""}],"annotation":"Transparent"},{"characters":[{"symbol":"sleep","indicator":""}],"annotation":"Asleep"},{"characters":[{"symbol":"awake","indicator":""}],"annotation":"Awake"}]</bliss>
+	<p>The eye is much like a childs drawing. The symbol for asleep and awake make sense together, representing either closed or open eyes.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"ear","indicator":"indicator_(thing)"}],"annotation":"Ear"},{"characters":[{"symbol":"ear","indicator":"indicator_(action)"}],"annotation":"To hear"},{"characters":[{"symbol":"ear","indicator":"indicator_(description)"}],"annotation":"Auditory"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"ear","indicator":""}],"annotation":"Listener"},{"characters":[{"symbol":"news","indicator":""}],"annotation":"News (eye + ear)"},{"characters":[{"symbol":"sound","indicator":""}],"annotation":"Sound (earth + ear)"}]</bliss>
+	<p>The ear is also easily recognisable. We write listener by combining individual and the ear. In life, news is the combination of things we see and hear. Sound is the earthly experience of the ear.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"mouth","indicator":"indicator_(thing)"}],"annotation":"A mouth"},{"characters":[{"symbol":"mouth","indicator":"indicator_(action)"}],"annotation":"To speak, tell, say"},{"characters":[{"symbol":"mouth","indicator":"indicator_(description)"}],"annotation":"Verbal"},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"mouth","indicator":""}],"annotation":"Speaker"},{"characters":[{"symbol":"food","indicator":""}],"annotation":"Food (mouth + earth)"},{"characters":[{"symbol":"mouth","indicator":""},{"symbol":"back_and_forth,backward_and_forward,to_and_fro","indicator":""}],"annotation":"Discussion"}]</bliss>
+	<p>The mouth is the root of many concepts including speaking, tasting, breathing and many more. We </p>
+	<bliss class='small'>[{"characters":[{"symbol":"nose","indicator":"indicator_(thing)"}],"annotation":"Nose"},{"characters":[{"symbol":"nose","indicator":"indicator_(action)"}],"annotation":"To smell"},{"characters":[{"symbol":"nose","indicator":"indicator_(description)"}],"annotation":"Olfactory"},{"characters":[{"symbol":"smell,odour","indicator":""}],"annotation":"A smell (nose + earth)"},{"characters":[{"symbol":"taste","indicator":""}],"annotation":"Taste (nose + mouth)"}]</bliss>
+
+<!-- o! o!! o!!! cry shout yell -->
+	hand (include thing for tool)
+
+	<h2>Chapter X: Plurals</h2>
+	Villiage, town, city
+	trees, grove, forest,
+	rain, downpoor, cloudburst
+
+	<h2>Chapter X: Eats shoots and leaves.</h2>
+
+
+	<h2>Chapter X: Some more symbols</h2>
+	before (in front), after, above (over), below (under)
+	 dawn, dusk
+
+	all (multitude, enclosure), in, on, at
+
+	part of
+
+	earth sky creation
+
+	<h2>Chapter X: Questions</h2>
+
+	<h2>Chapter X: Conjunctions</h2>
+
+	And
+	But  
+	Or 
+	Nor
+	For 
+	Yet  
+	So 
+	after
+	although
+	as
+	as if
+	as long as
+	as much as
+	as soon as
+	as though
+	because
+	before
+	even
+	even if
+	even though
+	if
+	if only
+	if when
+	if then 
+	inasmuch
+	in order that
+	just as
+	lest
+	now
+	now since
+	now that
+	now when
+	once
+	provided
+	provided that
+	rather than
+	since
+	so that
+	supposing
+	than
+	that
+	though
+	til
+	unless
+	until
+	when
+	whenever
+	where
+	whereas
+	where if
+	wherever
+	whether
+	which
+	while
+	who
+	whoever
+	why
+
+	<h2>Chapter X: Vocabulary</h2>
+	water, fire, , knife
+	star, earth, mountain, electricity, 
+
+	time, limits, time limits, to borrow (get time limits), to lend
+
+	<h2>Chapter X: Vision</h2>
+	<!-- p304 -->
+
+	<h2>Chapter X: The wheel and the machine</h2>
+	<!-- p395 -->
+
+	<h2>Chapter X: Tenses revisited</h2>
+
+opposite
+
+
+
+Creation
+
+This symbols is wholly arbitrary, and we may say that man shall only ever use an arbitrary symbol for this meaning. In Bliss we take a symbol which has been displayed on churches and temples for thousands of years.
+
+We can vary this symbol, making it smaller to indicate a smaller meaning, double and heighten it to indicate a heightened meaning and so forth.
+
+creation, man-made , supra-natural
+
+If we assume that the first large triangle should stand for what we perceive with our imperfect senses of Nature and the Universe, then the second, heightened triangle should stand for what we usually cannot perceive with our imperfected senses.
+
+**mind, and different heights for reason and conceious**
+
+
+I you he we standing weak lying sick needy
+
+	<p>The letter combination <b>house</b> would mean something to him, but the combinations <b>mansion</b>, <b>manor</b>, <b>cottage</b>, <b>bungalow</b> may mean nothing to him.</p>
+
+	<p>Take a moment to recall the last time you learned a foreign language and struggled to remember a list .. I you we </p>
+
+p139 for a whole long list of stuff
+
+plurals 263
+
+	<h3>Arrows</h3>
+	<p>Above we saw how to combine simple arrows with the symbol for container to form more complex concepts. Lets consider some more forms of arrows and meanings we can create with them.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"beginning,start","indicator":""}],"annotation":"Start"},{"characters":[{"symbol":"line,stripe","indicator":""},{"symbol":"forward","indicator":""}],"annotation":"Departure"},{"characters":[{"symbol":"forward","indicator":""}],"annotation":"Forward"},{"characters":[{"symbol":"forward","indicator":""},{"symbol":"line,stripe","indicator":""}],"annotation":"Arrival"},{"characters":[{"symbol":"end,arrival,stop","indicator":""}],"annotation":"Stop"}]</bliss>
+	<p>These symbols seem self-explanatory.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"race,competition,contest","indicator":""}],"annotation":"Competition"},{"characters":[{"symbol":"success","indicator":""}],"annotation":"Success"},{"characters":[{"symbol":"failure","indicator":""}],"annotation":"Failure"},{"characters":[{"symbol":"forward","indicator":""},{"symbol":"backward,back","indicator":""}],"annotation":"Meeting"},{"characters":[{"symbol":"gathering,assembly,meeting,conference","indicator":""}],"annotation":"Gathering"},{"characters":[],"annotation":""}]</bliss>
+	<p></p>
+	<bliss class='small'>[{"characters":[{"symbol":"mouth","indicator":""},{"symbol":"forward","indicator":""},{"symbol":"backward,back","indicator":""}],"annotation":"Hello"},{"characters":[{"symbol":"mouth","indicator":""},{"symbol":"backward,back","indicator":""},{"symbol":"forward","indicator":""}],"annotation":"Goodbye"}]</bliss>
+	<p>Hello's meaning is derived from a combination of speaking and meeting, but also represents a classic call and response. Goodbye is speaking separation.</p>
+
+</body>
+</html>
