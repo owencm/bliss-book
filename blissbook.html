@@ -43,14 +43,14 @@
 	<p>Before we start, lets take a look at what we hope to build up to in this chapter. Don't worry about understanding the Bliss right now, we'll get there together!</p>
 	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(past_action)"}],"annotation":"went"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"giving,gift","indicator":""},{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"school"},{"characters":[{"symbol":"day","indicator":""},{"symbol":"ago,then_(past)","indicator":""},{"symbol":"then,so,later","indicator":""}],"annotation":"today"}]</bliss>
 
-
 	<!-- before, after etc p251 -->
 	<h3>The symbol for time</h3>
 	<bliss class='small'>[{"characters":[{"symbol":"past","indicator":""}],"annotation":"Past"},{"characters":[{"symbol":"past","indicator":""},{"symbol":"future","indicator":""}],"annotation":"Present"},{"characters":[{"symbol":"future","indicator":""}],"annotation":"Future"}]</bliss>
 	<p>Time has no obvious visual representation but in Bliss we represent it with a curve turned backwards to mirror the past and turned forward to signify the future. In between past and future is the present.</p>
-
 	<p>To indicate tense, we could add these symbols alongside the action indicator, however a single time indicator will be sufficient to indicate action and tense.</p>
 	<bliss class='small'>[{"characters":[{"symbol":"feeling,emotion,sensation","indicator":"indicator_(past_action)"},{"symbol":"fire","indicator":""}],"annotation":"Wanted"},{"characters":[{"symbol":"rain","indicator":"indicator_(present_action)"}],"annotation":"Raining"},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(future_action)"}],"annotation":"Will go"}]</bliss>
+	<p>**We can go smaller**</p>
+	<bliss class='small'>[{"characters":[{"symbol":"day","indicator":""},{"symbol":"ago,then_(past)","indicator":""}],"annotation":"Yesterday"},{"characters":[{"symbol":"day","indicator":""},{"symbol":"ago,then_(past)","indicator":""},{"symbol":"then,so,later","indicator":""}],"annotation":"Today"},{"characters":[{"symbol":"day","indicator":""},{"symbol":"then,so,later","indicator":""}],"annotation":"Tomorrow"}]</bliss>
 
 	<h3>Combinations of symbols</h3>
 	<bliss class='small'>[{"characters":[{"symbol":"mind,intellect,reason","indicator":""}],"annotation":"Mind"},{"characters":[{"symbol":"mind,intellect,reason","indicator":"indicator_(action)"}],"annotation":"To think"},{"characters":[{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"Knowledge"},{"characters":[{"symbol":"knowledge,class_(in_combinations)","indicator":"indicator_(action)"}],"annotation":"To know"}]</bliss>
@@ -60,16 +60,29 @@
 	<bliss class='small'>[{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"Building"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"feeling,emotion,sensation","indicator":""}],"annotation":"Home"},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"giving,gift","indicator":""},{"symbol":"knowledge,class_(in_combinations)","indicator":""}],"annotation":"School (building that gives knowledge)"}]</bliss>
 	<p>Once you know the building blocks, these words need no explanation.</p>
 
-	<h2>Chapter X: I am what I have</h2>
-	<p>We now turn our attention to very important concepts: existance and possession.</p>	
-	<p>To own something means an addition or a gain of some very earthly thing. Thus, the combination of addition and earth captures this concept cleanly.</p>
-	<bliss class='small'>[{"characters":[{"symbol":"proposed_additive","indicator":""}],"annotation":"Addition"},{"characters":[{"symbol":"earth,ground,land","indicator":""}],"annotation":"Earth"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(action)"}],"annotation":"To possess, to own"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(thing)"}],"annotation":"Possession (earthly addition)"}]</bliss>
-	<p>Now we know how to express possession we should introduce some more things it is possible to possess!</p>
-	<!-- Nouns here -->
-	pen paper, money,letter
-	<p>Now we know how to express "I have a pen" it is natural to wonder how to say "my pen is good"</p>
+	<h2>Chapter 3: I am what I own</h2>
+	<h3>Existence</h3>
+	<p>Combine person and sun (without which no life is possible) we arrive at the symbol for existence or life.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""}],"annotation":"Person"},{"characters":[{"symbol":"sun","indicator":""}],"annotation":"Sun"},{"characters":[{"symbol":"life","indicator":""}],"annotation":"Existence"}]</bliss>
+	<p>By reducing the symbols size we acheive a smaller meaning, to be.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"proposed_small_life","indicator":"indicator_(action)"}],"annotation":"am"},{"characters":[{"symbol":"woman,female","indicator":""}],"annotation":"female"}]</bliss>
+	<p>Now try translating the following as an exercise:</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"two_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"proposed_small_life","indicator":"indicator_(action)"}],"annotation":""},{"characters":[{"symbol":"water,fluid,liquid","indicator":"indicator_(description)"}],"annotation":""}]</bliss>
 
-	<h2>Chapter 3: Senses</h2>
+	<h3>Possession</h3>
+	<p>To own something means an addition or a gain of some very earthly thing.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"proposed_additive","indicator":""}],"annotation":"Addition"},{"characters":[{"symbol":"earth,ground,land","indicator":""}],"annotation":"Earth"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(action)"}],"annotation":"To possess, to own"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(thing)"}],"annotation":"Possession (earthly addition)"}]</bliss>
+	<p>Now we know how to express possession we need to know the words for more things we can possess.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"money,cash","indicator":""}],"annotation":"Money"},{"characters":[{"symbol":"paper,card,page","indicator":""}],"annotation":"Paper"},{"characters":[{"symbol":"book","indicator":""}],"annotation":"Book"},{"characters":[{"symbol":"pen,pencil","indicator":""}],"annotation":"Pen"}]</bliss>
+	<p>We may now write</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"ownership,possession","indicator":"indicator_(action)"}],"annotation":"own"},{"characters":[{"symbol":"money,cash","indicator":"indicator_(thing)"}], "annotation":"money"}]</bliss>
+	<p>But we have a very useful verb "to have" which does not indicate ownership outright, but has a smaller meaning. Just like we captured "to be" a smaller form of "to exist", we can minimize "to own" resulting in the verb "to have".</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":"I"},{"characters":[{"symbol":"holding","indicator":"indicator_(action)"}],"annotation":"have"},{"characters":[{"symbol":"money,cash","indicator":"indicator_(thing)"}],"annotation":"money"}]</bliss>
+	<p>The final piece of the puzzle is to learn how to write "my money". This is easily done.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""},{"symbol":"proposed_possessive","indicator":""}],"annotation":"My"},{"characters":[{"symbol":"money,cash","indicator":"indicator_(thing)"}],"annotation":"money"}]</bliss>
+	<p>As we can see, the addition symbol written low beside any noun creates a possessive.</p>
+
+	<h2>Chapter 4: Senses</h2>
 	<!-- p143 for senses. todo: remove evaluations and move 'combination examples' to their own section -->
 	<bliss class='small'>[{"characters":[{"symbol":"eye","indicator":"indicator_(thing)"}],"annotation":"Eye"},{"characters":[{"symbol":"eye","indicator":"indicator_(action)"}],"annotation":"To see"},{"characters":[{"symbol":"eye","indicator":"indicator_(description)"}],"annotation":"Visual"},{"characters":[{"symbol":"eye","indicator":""},{"symbol":"through","indicator":""}],"annotation":"Transparent"},{"characters":[{"symbol":"sleep","indicator":""}],"annotation":"Asleep"},{"characters":[{"symbol":"awake","indicator":""}],"annotation":"Awake"}]</bliss>
 	<p>The eye is much like a childs drawing. The symbol for asleep and awake make sense together, representing either closed or open eyes.</p>
@@ -80,15 +93,44 @@
 	<bliss class='small'>[{"characters":[{"symbol":"nose","indicator":"indicator_(thing)"}],"annotation":"Nose"},{"characters":[{"symbol":"nose","indicator":"indicator_(action)"}],"annotation":"To smell"},{"characters":[{"symbol":"nose","indicator":"indicator_(description)"}],"annotation":"Olfactory"},{"characters":[{"symbol":"smell,odour","indicator":""}],"annotation":"A smell (nose + earth)"},{"characters":[{"symbol":"taste","indicator":""}],"annotation":"Taste (nose + mouth)"}]</bliss>
 
 <!-- o! o!! o!!! cry shout yell -->
-	hand (include thing for tool)
+	<!-- hand (include thing for tool) -->
 
-	<h2>Chapter X: Plurals</h2>
-	Villiage, town, city
-	trees, grove, forest,
-	rain, downpoor, cloudburst
+	<h2>Chapter 5: Plurals</h2>
+	<p>In Bliss you don't need to worry whether the plural of sheep is sheep or sheeps, you simply write that there are multiple of something.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"Building"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"Town"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"Village"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"house,building,dwelling,residence","indicator":""}],"annotation":"City"}]</bliss>
+	<p>Increasing scales of multiples are easily captured by the addition of multiple signs.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"tree","indicator":""}],"annotation":"Tree"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"tree","indicator":""}],"annotation":"Trees"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"tree","indicator":""}],"annotation":"Grove"},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"tree","indicator":""}],"annotation":"Forest"}]</bliss>
+	<p>Once we have seen building and city, it becomes immediately obvious how to write forest once you have seen tree. This is a great strength of the language.</p>
+	<p>We can also combine symbols together with plurals, easily creating concepts such as rich person.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"ownership,possession","indicator":""}],"annotation":"Rich person (person with many posessions)"}]</bliss>
 
-	<h2>Chapter X: Eats shoots and leaves.</h2>
+	<h2>Chapter 6: Progress and problems</h2>
+	<p>So far we have learned 36 nouns, 36 verbs and 36 adjectives. We've also studied past and future tenses as well as plurals.</p>
+	<p>Let's now test ourselves with some practice sentences. Try to work out what each means.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"food","indicator":"indicator_(action)"}],"annotation":""},{"characters":[{"symbol":"food","indicator":"indicator_(thing)"}],"annotation":""}]</bliss>
+	<bliss class='small'>[{"characters":[{"symbol":"man,male","indicator":""},{"symbol":"two_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"ear","indicator":"indicator_(past_action)"}],"annotation":""},{"characters":[{"symbol":"rain","indicator":""}],"annotation":""}]</bliss>
+	<bliss class='small'>[{"characters":[{"symbol":"woman,female","indicator":""},{"symbol":"two_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(future_action)"}],"annotation":""},{"characters":[{"symbol":"house,building,dwelling,residence","indicator":""},{"symbol":"feeling,emotion,sensation","indicator":""}],"annotation":""},{"characters":[{"symbol":"day","indicator":""},{"symbol":"then,so,later","indicator":""}],"annotation":""}]</bliss>
+	<bliss class='small'>[{"characters":[{"symbol":"man,male","indicator":""},{"symbol":"three_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"proposed_small_life","indicator":"indicator_(action)"}],"annotation":""},{"characters":[{"symbol":"sleep","indicator":""}],"annotation":""}]</bliss>
+	<bliss class='small'>[{"characters":[{"symbol":"woman,female","indicator":""},{"symbol":"three_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"feeling,emotion,sensation","indicator":"indicator_(action)"},{"symbol":"fire","indicator":""}],"annotation":""},{"characters":[{"symbol":"legs_and_feet","indicator":"indicator_(future_action)"}],"annotation":""},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"tree","indicator":""}],"annotation":""}]</bliss>
+	<bliss class='small'>[{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"one_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"mind,intellect,reason","indicator":"indicator_(past_action)"}],"annotation":""},{"characters":[{"symbol":"person,human_being,individual,human","indicator":""},{"symbol":"two_(digit)","indicator":""}],"annotation":""},{"characters":[{"symbol":"holding","indicator":"indicator_(past_action)"}],"annotation":""},{"characters":[{"symbol":"group_of,much_of,many_of,quantity_of","indicator":""},{"symbol":"money,cash","indicator":"indicator_(thing)"}],"annotation":""}]</bliss>
 
+	<h2>Chapter 7: Eats shoots and leaves.</h2>
+	<div class='quote'>
+		<p>A panda walks into a caf&eacute;. He orders a sandwich, eats it, then draws a gun and proceeds to fire it at the other patrons.</p>
+
+		<p>"Why?" asks the confused, surviving waiter amidst the carnage, as the panda makes towards the exit. The panda produces a badly punctuated wildlife manual and tosses it over his shoulder.</p>
+
+		<p>"Well, I'm a panda," he says. "Look it up."</p>
+
+		<p>The waiter turns to the relevant entry in the manual and, sure enough, finds an explanation. "Panda. Large black-and-white bear-like mammal, native to China. Eats, shoots and leaves."</p>
+	</div>
+	<p>This story us teaches how single words in most languages have a number of distinct meanings and misinterpretation of a single word can result in confusion and disaster.</p>
+	<p>Sometimes when translating into Bliss it is possible to accidentally write the wrong word because what you intended to write sounds (in English) the same as what you did write.</p>
+	<bliss class='small'>[{"characters":[{"symbol":"eye","indicator":"indicator_(thing)"}],"annotation":"Eye"},{"characters":[{"symbol":"food","indicator":"indicator_(action)"}],"annotation":"eat"},{"characters":[{"symbol":"food","indicator":""}],"annotation":"food"}]</bliss>
+	<p>In English, reading this Bliss sentence out loud sounds correct, but the symbols used do not actually represent the desired meaning.</p>
+	<p>It is important to always think about the underlying meaning you want to represent rather than translating word for word.</p>
+
+	<h2>Chapter X: The earth and sky line</h2>
 
 	<h2>Chapter X: Some more symbols</h2>
 	before (in front), after, above (over), below (under)
@@ -96,11 +138,14 @@
 
 	all (multitude, enclosure), in, on, at
 
+	opposite, without
+
 	part of
 
 	earth sky creation
 
 	<h2>Chapter X: Questions</h2>
+	question and answer
 
 	<h2>Chapter X: Conjunctions</h2>
 
@@ -174,23 +219,21 @@
 	<h2>Chapter X: The wheel and the machine</h2>
 	<!-- p395 -->
 
+	<h2>Chapter X: Creation</h2>
+	Creation
+
+	This symbols is wholly arbitrary, and we may say that man shall only ever use an arbitrary symbol for this meaning. In Bliss we take a symbol which has been displayed on churches and temples for thousands of years.
+
+	We can vary this symbol, making it smaller to indicate a smaller meaning, double and heighten it to indicate a heightened meaning and so forth.
+
+	creation, man-made , supra-natural
+
+	If we assume that the first large triangle should stand for what we perceive with our imperfect senses of Nature and the Universe, then the second, heightened triangle should stand for what we usually cannot perceive with our imperfected senses.
+
+	**mind, and different heights for reason and conceious**
+
 	<h2>Chapter X: Tenses revisited</h2>
-
-opposite
-
-
-
-Creation
-
-This symbols is wholly arbitrary, and we may say that man shall only ever use an arbitrary symbol for this meaning. In Bliss we take a symbol which has been displayed on churches and temples for thousands of years.
-
-We can vary this symbol, making it smaller to indicate a smaller meaning, double and heighten it to indicate a heightened meaning and so forth.
-
-creation, man-made , supra-natural
-
-If we assume that the first large triangle should stand for what we perceive with our imperfect senses of Nature and the Universe, then the second, heightened triangle should stand for what we usually cannot perceive with our imperfected senses.
-
-**mind, and different heights for reason and conceious**
+	<!-- p415 -->
 
 
 I you he we standing weak lying sick needy
